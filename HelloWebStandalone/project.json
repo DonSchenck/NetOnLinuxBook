@@ -12,7 +12,7 @@
   },
 
   "runtimes":{
-	"rhel.7.2-x64":{}
+  	"rhel.7.2-x64":{}
   },
   
   "frameworks": {
