@@ -1,0 +1,46 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.0",
+    "signature": "f73a855088f5ab0026c8fd32bff6cf6b393b0f58"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "HelloWorldFSharp/1.0.0": {
+        "dependencies": {
+          "Microsoft.FSharp.Core.netcore": "1.0.0-alpha-160509"
+        },
+        "runtime": {
+          "HelloWorldFSharp.dll": {}
+        }
+      },
+      "Microsoft.FSharp.Core.netcore/1.0.0-alpha-160509": {
+        "runtime": {
+          "lib/netstandard1.5/FSharp.Core.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/any/native/FSharp.Core.optdata": {
+            "rid": "any",
+            "assetType": "native"
+          },
+          "runtimes/any/native/FSharp.Core.sigdata": {
+            "rid": "any",
+            "assetType": "native"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HelloWorldFSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.FSharp.Core.netcore/1.0.0-alpha-160509": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MeEPPDk2Ghe2WkC5LPuW8fpoYK91mrVXIdGAlzqLjAVMF8RTYg20q21RhdNHIvpKJciiaJ78160j0bTToT2Wcg=="
+    }
+  }
+}
