@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <PipeLaunchOptions xmlns="http://schemas.microsoft.com/vstudio/MDDDebuggerOptions/2014"
-  PipePath="c:\mytools\plink.exe" PipeArguments="-i c:\mytools\private_key.ppk vagrant@127.0.0.1 -P 2222 -batch -t ~/clrdbg/clrdbg --interpreter=mi"
-  TargetArchitecture="x64" MIMode="clrdbg" ExePath="dotnet" WorkingDirectory="/shared/NetOnLinuxBook/HelloMvcApi" ExeArguments="bin/Debug/netcoreapp1.0/HelloMvcApi.dll">
+  PipePath="c:\users\dschenck\downloads\plink.exe" PipeArguments="-i c:\users\dschenck\private_key.ppk vagrant@127.0.0.1 -P 2222 -batch -t ~/clrdbg/clrdbg --interpreter=mi"
+  TargetArchitecture="x64" MIMode="clrdbg" ExePath="dotnet" WorkingDirectory="/shared/DotNetOnLinux/cli-samples-master/HelloMvcApi" ExeArguments="bin/Debug/netcoreapp1.0/HelloMvcApi.dll">
 </PipeLaunchOptions>
