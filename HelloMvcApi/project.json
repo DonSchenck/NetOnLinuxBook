@@ -5,7 +5,7 @@
     "dependencies": {
         "Microsoft.NETCore.App": {
             "type": "platform",
-            "version": "1.0.0"
+            "version": "1.1.0"
         },
         "Microsoft.Extensions.Logging.Console": "1.0.0",
         "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
@@ -23,5 +23,8 @@
     },
     "scripts": {
         "postpublish": "dotnet publish-iis --publish-folder %publish:OutputPath%"
+    },	
+    "tools": {
+        "Microsoft.DotNet.Watcher.Tools": "1.0.0-preview2-final"
     }
 }

@@ -119,38 +119,6 @@
           "lib/netstandard1.3/_._": {}
         }
       },
-      "Microsoft.FSharp.Core.netcore/1.0.0-alpha-160509": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.0.1-rc2-23911",
-          "NETStandard.Library": "1.5.0-rc2-23911",
-          "System.Linq.Expressions": "4.0.11-rc2-23911",
-          "System.Linq.Queryable": "4.0.1-rc2-23805",
-          "System.Net.Requests": "4.0.11-rc2-23911",
-          "System.Reflection.Emit": "4.0.1-rc2-23911",
-          "System.Reflection.TypeExtensions": "4.1.0-rc2-23911",
-          "System.Runtime.Loader": "4.0.0-rc2-23911",
-          "System.Threading.Tasks.Parallel": "4.0.1-rc2-23911",
-          "System.Threading.Thread": "4.0.0-rc2-23911",
-          "System.Threading.ThreadPool": "4.0.10-rc2-23911"
-        },
-        "compile": {
-          "lib/netstandard1.5/FSharp.Core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.5/FSharp.Core.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/any/native/FSharp.Core.optdata": {
-            "assetType": "native",
-            "rid": "any"
-          },
-          "runtimes/any/native/FSharp.Core.sigdata": {
-            "assetType": "native",
-            "rid": "any"
-          }
-        }
-      },
       "Microsoft.NETCore.App/1.1.0": {
         "type": "package",
         "dependencies": {
@@ -432,7 +400,7 @@
           "ref/netstandard1.6/System.AppContext.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.6/System.AppContext.dll": {}
+          "lib/netstandard1.6/_._": {}
         }
       },
       "System.Buffers/4.0.0": {
@@ -448,7 +416,7 @@
           "lib/netstandard1.1/System.Buffers.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.1/System.Buffers.dll": {}
+          "lib/netstandard1.1/_._": {}
         }
       },
       "System.Collections/4.0.11": {
@@ -460,9 +428,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Collections.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/_._": {}
         }
       },
       "System.Collections.Concurrent/4.0.12": {
@@ -483,7 +448,7 @@
           "ref/netstandard1.3/System.Collections.Concurrent.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Collections.Concurrent.dll": {}
+          "lib/netstandard1.3/_._": {}
         }
       },
       "System.Collections.Immutable/1.2.0": {
@@ -561,9 +526,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Diagnostics.Debug.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/_._": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/4.0.0": {
@@ -579,7 +541,7 @@
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
+          "lib/netstandard1.3/_._": {}
         }
       },
       "System.Diagnostics.FileVersionInfo/4.0.0": {
@@ -666,9 +628,6 @@
         },
         "compile": {
           "ref/netstandard1.0/System.Diagnostics.Tools.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/_._": {}
         }
       },
       "System.Diagnostics.Tracing/4.1.0": {
@@ -680,9 +639,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Diagnostics.Tracing.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wpa81/_._": {}
         }
       },
       "System.Dynamic.Runtime/4.0.11": {
@@ -720,9 +676,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Globalization.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/_._": {}
         }
       },
       "System.Globalization.Calendars/4.0.1": {
@@ -751,11 +704,7 @@
           "ref/netstandard1.3/System.Globalization.Extensions.dll": {}
         },
         "runtimeTargets": {
-          "runtimes/unix/lib/netstandard1.3/System.Globalization.Extensions.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netstandard1.3/System.Globalization.Extensions.dll": {
+          "runtimes/win/lib/netstandard1.3/_._": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -772,9 +721,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.IO.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/_._": {}
         }
       },
       "System.IO.Compression/4.1.0": {
@@ -798,15 +744,8 @@
         "compile": {
           "ref/netstandard1.3/System.IO.Compression.dll": {}
         },
-        "runtime": {
-          "lib/portable-net45+win8+wpa81/_._": {}
-        },
         "runtimeTargets": {
-          "runtimes/unix/lib/netstandard1.3/System.IO.Compression.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netstandard1.3/System.IO.Compression.dll": {
+          "runtimes/win/lib/netstandard1.3/_._": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -829,7 +768,7 @@
           "ref/netstandard1.3/System.IO.Compression.ZipFile.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.IO.Compression.ZipFile.dll": {}
+          "lib/netstandard1.3/_._": {}
         }
       },
       "System.IO.FileSystem/4.0.1": {
@@ -857,7 +796,7 @@
           "ref/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
+          "lib/netstandard1.3/_._": {}
         }
       },
       "System.IO.FileSystem.Watcher/4.0.0": {
@@ -948,7 +887,7 @@
           "ref/netstandard1.6/System.Linq.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.6/System.Linq.dll": {}
+          "lib/netstandard1.6/_._": {}
         }
       },
       "System.Linq.Expressions/4.1.0": {
@@ -976,7 +915,7 @@
           "ref/netstandard1.6/System.Linq.Expressions.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.6/System.Linq.Expressions.dll": {}
+          "lib/netstandard1.6/_._": {}
         }
       },
       "System.Linq.Parallel/4.0.1": {
@@ -1016,7 +955,7 @@
           "ref/netstandard1.0/System.Linq.Queryable.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Linq.Queryable.dll": {}
+          "lib/netstandard1.3/_._": {}
         }
       },
       "System.Net.Http/4.1.0": {
@@ -1052,15 +991,8 @@
         "compile": {
           "ref/netstandard1.3/System.Net.Http.dll": {}
         },
-        "runtime": {
-          "lib/portable-net45+win8+wpa81/_._": {}
-        },
         "runtimeTargets": {
-          "runtimes/unix/lib/netstandard1.6/System.Net.Http.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netstandard1.3/System.Net.Http.dll": {
+          "runtimes/win/lib/netstandard1.3/_._": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -1104,9 +1036,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Net.Primitives.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/_._": {}
         }
       },
       "System.Net.Requests/4.0.11": {
@@ -1129,15 +1058,8 @@
         "compile": {
           "ref/netstandard1.3/System.Net.Requests.dll": {}
         },
-        "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/_._": {}
-        },
         "runtimeTargets": {
-          "runtimes/unix/lib/netstandard1.3/System.Net.Requests.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netstandard1.3/System.Net.Requests.dll": {
+          "runtimes/win/lib/netstandard1.3/_._": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -1211,7 +1133,7 @@
           "ref/netstandard1.3/System.Net.WebHeaderCollection.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Net.WebHeaderCollection.dll": {}
+          "lib/netstandard1.3/_._": {}
         }
       },
       "System.Numerics.Vectors/4.1.1": {
@@ -1242,7 +1164,7 @@
           "ref/netstandard1.3/System.ObjectModel.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.ObjectModel.dll": {}
+          "lib/netstandard1.3/_._": {}
         }
       },
       "System.Reflection/4.1.0": {
@@ -1256,9 +1178,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Reflection.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/_._": {}
         }
       },
       "System.Reflection.DispatchProxy/4.0.1": {
@@ -1292,10 +1211,10 @@
           "System.Runtime": "4.1.0"
         },
         "compile": {
-          "ref/netstandard1.1/System.Reflection.Emit.dll": {}
+          "ref/netstandard1.1/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Reflection.Emit.dll": {}
+          "lib/netstandard1.3/_._": {}
         }
       },
       "System.Reflection.Emit.ILGeneration/4.0.1": {
@@ -1306,10 +1225,10 @@
           "System.Runtime": "4.1.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {}
+          "ref/netstandard1.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {}
+          "lib/netstandard1.3/_._": {}
         }
       },
       "System.Reflection.Emit.Lightweight/4.0.1": {
@@ -1324,7 +1243,7 @@
           "ref/netstandard1.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {}
+          "lib/netstandard1.3/_._": {}
         }
       },
       "System.Reflection.Extensions/4.0.1": {
@@ -1337,9 +1256,6 @@
         },
         "compile": {
           "ref/netstandard1.0/System.Reflection.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/_._": {}
         }
       },
       "System.Reflection.Metadata/1.3.0": {
@@ -1377,9 +1293,6 @@
         },
         "compile": {
           "ref/netstandard1.0/System.Reflection.Primitives.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/_._": {}
         }
       },
       "System.Reflection.TypeExtensions/4.1.0": {
@@ -1392,7 +1305,7 @@
           "ref/netstandard1.5/System.Reflection.TypeExtensions.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.5/System.Reflection.TypeExtensions.dll": {}
+          "lib/netstandard1.5/_._": {}
         }
       },
       "System.Resources.Reader/4.0.0": {
@@ -1422,9 +1335,6 @@
         },
         "compile": {
           "ref/netstandard1.0/System.Resources.ResourceManager.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/_._": {}
         }
       },
       "System.Runtime/4.1.0": {
@@ -1435,9 +1345,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Runtime.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wp80+wpa81/_._": {}
         }
       },
       "System.Runtime.Extensions/4.1.0": {
@@ -1449,9 +1356,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Runtime.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/_._": {}
         }
       },
       "System.Runtime.Handles/4.0.1": {
@@ -1477,9 +1381,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Runtime.InteropServices.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wpa81/_._": {}
         }
       },
       "System.Runtime.InteropServices.RuntimeInformation/4.0.0": {
@@ -1497,11 +1398,7 @@
           "ref/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {}
         },
         "runtimeTargets": {
-          "runtimes/unix/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {
+          "runtimes/win/lib/netstandard1.1/_._": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -1515,10 +1412,10 @@
           "System.Runtime": "4.1.0"
         },
         "compile": {
-          "ref/netstandard1.5/System.Runtime.Loader.dll": {}
+          "ref/netstandard1.5/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.5/System.Runtime.Loader.dll": {}
+          "lib/netstandard1.5/_._": {}
         }
       },
       "System.Runtime.Numerics/4.0.1": {
@@ -1533,7 +1430,7 @@
           "ref/netstandard1.1/System.Runtime.Numerics.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Runtime.Numerics.dll": {}
+          "lib/netstandard1.3/_._": {}
         }
       },
       "System.Security.Claims/4.0.1": {
@@ -1575,11 +1472,7 @@
           "ref/netstandard1.6/System.Security.Cryptography.Algorithms.dll": {}
         },
         "runtimeTargets": {
-          "runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll": {
+          "runtimes/win/lib/netstandard1.6/_._": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -1604,11 +1497,7 @@
           "ref/netstandard1.6/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.Cng.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netstandard1.6/System.Security.Cryptography.Cng.dll": {
+          "runtimes/win/lib/netstandard1.6/_._": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -1635,11 +1524,7 @@
           "ref/netstandard1.3/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Csp.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.Csp.dll": {
+          "runtimes/win/lib/netstandard1.3/_._": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -1665,11 +1550,7 @@
           "ref/netstandard1.3/System.Security.Cryptography.Encoding.dll": {}
         },
         "runtimeTargets": {
-          "runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll": {
+          "runtimes/win/lib/netstandard1.3/_._": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -1696,10 +1577,10 @@
           "ref/netstandard1.6/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.6/System.Security.Cryptography.OpenSsl.dll": {}
+          "lib/netstandard1.6/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.OpenSsl.dll": {
+          "runtimes/unix/lib/netstandard1.6/_._": {
             "assetType": "runtime",
             "rid": "unix"
           }
@@ -1720,7 +1601,7 @@
           "ref/netstandard1.3/System.Security.Cryptography.Primitives.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Security.Cryptography.Primitives.dll": {}
+          "lib/netstandard1.3/_._": {}
         }
       },
       "System.Security.Cryptography.X509Certificates/4.1.0": {
@@ -1756,11 +1637,7 @@
           "ref/netstandard1.4/System.Security.Cryptography.X509Certificates.dll": {}
         },
         "runtimeTargets": {
-          "runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.X509Certificates.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netstandard1.6/System.Security.Cryptography.X509Certificates.dll": {
+          "runtimes/win/lib/netstandard1.6/_._": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -1815,9 +1692,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Text.Encoding.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/_._": {}
         }
       },
       "System.Text.Encoding.CodePages/4.0.1": {
@@ -1856,9 +1730,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Text.Encoding.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/_._": {}
         }
       },
       "System.Text.RegularExpressions/4.1.0": {
@@ -1875,7 +1746,7 @@
           "ref/netstandard1.6/System.Text.RegularExpressions.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.6/System.Text.RegularExpressions.dll": {}
+          "lib/netstandard1.6/_._": {}
         }
       },
       "System.Threading/4.0.11": {
@@ -1888,7 +1759,7 @@
           "ref/netstandard1.3/System.Threading.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Threading.dll": {}
+          "lib/netstandard1.3/_._": {}
         }
       },
       "System.Threading.Overlapped/4.0.1": {
@@ -1918,9 +1789,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/_._": {}
         }
       },
       "System.Threading.Tasks.Dataflow/4.6.0": {
@@ -1956,7 +1824,7 @@
           "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll": {}
+          "lib/netstandard1.0/_._": {}
         }
       },
       "System.Threading.Tasks.Parallel/4.0.1": {
@@ -1975,7 +1843,7 @@
           "ref/netstandard1.1/System.Threading.Tasks.Parallel.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Threading.Tasks.Parallel.dll": {}
+          "lib/netstandard1.3/_._": {}
         }
       },
       "System.Threading.Thread/4.0.0": {
@@ -1987,7 +1855,7 @@
           "ref/netstandard1.3/System.Threading.Thread.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Threading.Thread.dll": {}
+          "lib/netstandard1.3/_._": {}
         }
       },
       "System.Threading.ThreadPool/4.0.10": {
@@ -2000,7 +1868,7 @@
           "ref/netstandard1.3/System.Threading.ThreadPool.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Threading.ThreadPool.dll": {}
+          "lib/netstandard1.3/_._": {}
         }
       },
       "System.Threading.Timer/4.0.1": {
@@ -2037,7 +1905,7 @@
           "ref/netstandard1.3/System.Xml.ReaderWriter.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Xml.ReaderWriter.dll": {}
+          "lib/netstandard1.3/_._": {}
         }
       },
       "System.Xml.XDocument/4.0.11": {
@@ -2060,7 +1928,7 @@
           "ref/netstandard1.3/System.Xml.XDocument.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Xml.XDocument.dll": {}
+          "lib/netstandard1.3/_._": {}
         }
       },
       "System.Xml.XmlDocument/4.0.1": {
@@ -2455,23 +2323,6 @@
         "src/src/Microsoft.CSharp/src/Microsoft/CSharp/RuntimeBinder/Syntax/PredefinedType.cs",
         "src/src/Microsoft.CSharp/src/Microsoft/CSharp/RuntimeBinder/Syntax/TokenFacts.cs",
         "src/src/Microsoft.CSharp/src/Microsoft/CSharp/RuntimeBinder/Syntax/TokenKind.cs"
-      ]
-    },
-    "Microsoft.FSharp.Core.netcore/1.0.0-alpha-160509": {
-      "sha512": "MeEPPDk2Ghe2WkC5LPuW8fpoYK91mrVXIdGAlzqLjAVMF8RTYg20q21RhdNHIvpKJciiaJ78160j0bTToT2Wcg==",
-      "type": "package",
-      "path": "Microsoft.FSharp.Core.netcore/1.0.0-alpha-160509",
-      "files": [
-        "Microsoft.FSharp.Core.netcore.1.0.0-alpha-160509.nupkg.sha512",
-        "Microsoft.FSharp.Core.netcore.nuspec",
-        "content/any/netstandard1.5/FSharp.Core.optdata",
-        "content/any/netstandard1.5/FSharp.Core.sigdata",
-        "lib/netstandard1.5/FSharp.Core.dll",
-        "lib/netstandard1.5/FSharp.Core.optdata",
-        "lib/netstandard1.5/FSharp.Core.runtimeconfig.json",
-        "lib/netstandard1.5/FSharp.Core.sigdata",
-        "runtimes/any/native/FSharp.Core.optdata",
-        "runtimes/any/native/FSharp.Core.sigdata"
       ]
     },
     "Microsoft.NETCore.App/1.1.0": {
@@ -9609,36 +9460,11 @@
     }
   },
   "projectFileDependencyGroups": {
-    "": [
-      "Microsoft.FSharp.Core.netcore >= 1.0.0-alpha-160509"
-    ],
+    "": [],
     ".NETCoreApp,Version=v1.0": [
       "Microsoft.NETCore.App >= 1.1.0"
     ]
   },
-  "tools": {
-    ".NETCoreApp,Version=v1.0": {
-      "dotnet-compile-fsc/1.0.0-preview2-020000": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.DotNet.Cli.Utils": "1.0.0-preview2-003121",
-          "Microsoft.DotNet.Compiler.Common": "1.0.0-preview2-003121",
-          "Microsoft.DotNet.ProjectModel": "1.0.0-rc3-003121",
-          "Microsoft.FSharp.Compiler.netcore": "1.0.0-alpha-160629",
-          "Microsoft.NETCore.App": "1.1.0"
-        },
-        "compile": {
-          "lib/netcoreapp1.0/dotnet-compile-fsc.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp1.0/dotnet-compile-fsc.dll": {}
-        }
-      }
-    }
-  },
-  "projectFileToolGroups": {
-    ".NETCoreApp,Version=v1.0": [
-      "dotnet-compile-fsc >= 1.0.0-preview2-*"
-    ]
-  }
+  "tools": {},
+  "projectFileToolGroups": {}
 }
