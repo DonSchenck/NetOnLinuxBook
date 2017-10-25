@@ -1,0 +1,10 @@
+/shared/netonlinuxbook/webapi/bin/Debug/netcoreapp2.0/webapi.deps.json
+/shared/netonlinuxbook/webapi/bin/Debug/netcoreapp2.0/webapi.runtimeconfig.json
+/shared/netonlinuxbook/webapi/bin/Debug/netcoreapp2.0/webapi.runtimeconfig.dev.json
+/shared/netonlinuxbook/webapi/bin/Debug/netcoreapp2.0/webapi.dll
+/shared/netonlinuxbook/webapi/bin/Debug/netcoreapp2.0/webapi.pdb
+/shared/netonlinuxbook/webapi/obj/Debug/netcoreapp2.0/webapi.csproj.CoreCompileInputs.cache
+/shared/netonlinuxbook/webapi/obj/Debug/netcoreapp2.0/webapi.AssemblyInfoInputs.cache
+/shared/netonlinuxbook/webapi/obj/Debug/netcoreapp2.0/webapi.AssemblyInfo.cs
+/shared/netonlinuxbook/webapi/obj/Debug/netcoreapp2.0/webapi.dll
+/shared/netonlinuxbook/webapi/obj/Debug/netcoreapp2.0/webapi.pdb

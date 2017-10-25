@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <DebugType>portable</DebugType>
+    <AssemblyName>HelloWorld</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>HelloWorld</PackageId>
+    <AssetTargetFallback>$(PackageTargetFallback);dnxcore50</AssetTargetFallback>
+    <RuntimeFrameworkVersion>2.0.0</RuntimeFrameworkVersion>
+  </PropertyGroup>
+
+</Project>
