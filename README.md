@@ -1,1 +1,1 @@
-To accompany the book "Transitioning to .NET on Linux"
+## To accompany the book "Transitioning to .NET Core on Red Hat Enterprise Linux"
